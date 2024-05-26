@@ -97,9 +97,9 @@ for emp in emps:
     pyautogui.scroll(-500)
     timer.sleep(2)  # Adjust sleep time according to your system speed
 
-    element_image = r'C:\Users\Mario\python projects\gui automation for vacations\element.png'
-    element2_image = r'C:\Users\Mario\python projects\gui automation for vacations\element2.png'
-    element3_image = r'C:\Users\Mario\python projects\gui automation for vacations\element3.png'
+    element_image = r'element.png'
+    element2_image = r'element2.png'
+    element3_image = r'element3.png'
     try:
         if element == 3:
             raise Exception()
